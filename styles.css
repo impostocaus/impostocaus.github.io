@@ -1,0 +1,48 @@
+/* (*) = wild card selector or hits the entire site
+the range of color is from 0 - 255, how trasparent the color is 0 - 100%
+can only use hexadecimal or rgb values 
+only pick one type of color format and use that one
+i am using hexadecimal
+*/
+* {
+    color: #000000;
+}
+
+/* this is a type selector color for the body */
+body {
+    background-color: #698f8f;
+}
+
+/* this is a type selector - color for the quotes */
+q {
+    color: #ff0000;
+}
+
+/* font and modifiers for the h2 */
+h2 {
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: normal;
+    font-size: 2em;
+    line-height: 2em;
+    text-align: center;
+}
+
+/* ID selector */
+#ender_pro {
+    color: #800080;
+}
+
+/* Class selector */
+.intro_header{
+    color: #ff4500;
+}
+
+/* notes for selectors
+
+Used ID selectors
+#ender_pro
+
+Class selectors
+.intro_header
+
+*/
